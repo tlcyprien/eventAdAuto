@@ -1,13 +1,13 @@
 // ==============================================================================
 // ADMISSION WORKFLOW : GOOGLE APPS SCRIPT + GEMINI API + GMAIL
-// Event : GDG Brunei - Road to DevFest 2026
+// Event : GDG DevFest 2026
 // Speaker : Cyprien Tankeu (Google Developer Expert Google Workspace)
 // ==============================================================================
 
 // 1. CONFIGURATION
 const GEMINI_API_KEY = "API Key";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
-const EVENT_NAME = "Level Up Operations Bootcamp 2026";
+const EVENT_NAME = "DevFest 2026";
 
 /**
  * 2. MOTEUR IA : Génère le corps de l'email personnalisé avec Gemini
